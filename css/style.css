@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 170px;
+}
+
+.container .card1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 405px;
+    width: 250px;
+    background: hsl(31, 77%, 52%);
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container .card1 > h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    margin-top: 25px;
+}
+
+.container .card1 > p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.container .card1 .botao {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.container .card1 .botao:hover {
+    background: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+}
+
+.container .card2 {
+    height: 405px;
+    width: 250px;
+    background: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+
+.container .card2 > h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    margin-top: 25px;
+}
+
+.container .card2 > p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 94px;
+}
+
+.container .card2 .botao {
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.container .card2 .botao:hover {
+    background: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+}
+
+.container .card3 {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 405px;
+    width: 250px;
+    background: hsl(179, 100%, 13%);
+    padding: 30px;
+}
+
+.container .card3 > h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    margin-top: 25px;
+}
+
+.container .card3 > p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.container .card3 .botao {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.container .card3 .botao:hover {
+    background: hsl(179, 100%, 13%);
+    color: white;
+    border: 2px solid white;
+}
+
+
+.botao {
+    margin-top: 70px;
+    background: white;
+    width: 150px;
+    display: block;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1086px) {
+    .container .card1 > p {
+        margin-bottom: 57px;
+    }
+
+    .container .card2 > P {
+        margin-bottom: 74px;
+    }
+
+    .container .card2 .botao {
+        margin-top: -36px;
+    }
+
+    .container .card3 > p {
+        margin-bottom: 57px;
+    }
+}
