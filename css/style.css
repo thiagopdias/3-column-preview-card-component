@@ -157,6 +157,16 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+    .container .card1 {
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
+    }
+
+    .container .card3 {
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 0;
+    }
 }
 
 @media screen and (max-width: 1086px) {
